@@ -1,0 +1,732 @@
+ * {
+    margin: 0;
+    padding: 0;
+   }
+
+html, body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+
+	
+}
+
+/*header - заголовок*/
+
+
+.headerContainer {
+    margin: 0 auto;
+     margin: 1%;
+     height: auto;
+     background: url("images/internet.jpg") 50%/cover no-repeat;
+    
+   
+   
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 6em;
+   
+}
+
+.header div {
+    display: flex;
+    justify-content: center;
+    margin: 0.5em;
+    height: 4em;
+    width: 40em;
+   
+  border: 1px solid #F5F5DC;
+   align-items: center;
+   font-size: 1.5em;
+     font-family: courier new;
+     font-weight: bold;
+     
+}
+
+.header a {
+    text-decoration: none;
+    color: #000000;
+    text-shadow: -1px -1px 1px #ADFF2F;
+
+
+
+
+}
+
+.header span {
+   
+    color: #2F4F4F;
+    
+}
+
+.header img {
+    height: 3em;
+    padding-right: 1em;
+}
+
+
+.wrapper{
+    display: none;
+}
+
+
+
+.menu {
+    display: flex;
+    height: 50em;
+    width: 65em;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 30px;
+    
+    
+}
+
+.menu div {
+    //margin-right: 3em;
+    padding: 1em;
+    height: auto;
+    width: 9em;
+    border: 1px solid #F5F5DC;
+    text-align: center;
+    margin-top: 1em;
+    font-family: Candara;
+    font-weight: 900;
+    background: rgba(0, 191, 255, 0.4);
+    letter-spacing: 3px;
+    color: 	#FFFFFF;
+    text-shadow: 1px 1px 3px #000000; 
+    font-size: 1.5em;
+   
+}
+.menuContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    height: 40em;
+    margin: 2em;
+}
+
+.menu a {
+   text-decoration: none; 
+   color: 	#FFFFFF;
+   text-shadow: 1px 1px 3px #000000; 
+}
+
+.zag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5em;
+    margin-right: 2em;
+    width: 65em;
+   background: rgba(0, 191, 255, 0.4);
+   height: 30em;
+   border: 1px solid #F5F5DC;
+   
+    
+}
+
+
+
+.zag h2 {
+    font-size: 2em;
+}
+
+
+.zag h1 {
+    font-size: 2.5em;
+}
+
+.zag h2, h1 {
+   
+   padding: 0.5em;
+   color: #00008B;
+   text-shadow: 2px 2px 4px #5F9EA0; 
+
+   
+}
+
+/*Обо мне*/
+
+ p {
+     display: flex;
+     justify-content: center;
+    font-family: Cambria Math;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+     border: 1px solid #0000FF;
+     margin: auto;
+     padding: 0.1em;
+     width: 11em;
+     margin-top: 1.5em;
+      margin-bottom: 1.5em;
+     text-decoration: none;
+}
+
+
+/*Обо мне*/
+
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1em;
+}
+
+.imageAboutMe {
+    display: flex;
+    height: 37em;
+    width: 42.5em;
+    background: url("images/programmer.jpg") 50%/cover no-repeat;
+    margin: 0.5em;
+    
+}
+
+.textAboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 25em;
+    width: 40em;
+    font-size: 1.5em;
+    margin: 0.5em;
+    
+}
+
+.textAboutMe div {
+    font-family: Cambria Math;
+    font-size: 100%;
+    border: none;
+    text-align: left;
+    text-indent: 10px;
+      
+}
+
+/*Услуги*/
+
+.uslugi {
+ display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 25em;
+  margin: 1em;
+}
+
+.uslugiText {
+    display: flex;
+    height: 25em;
+    width: 40em;
+    flex-direction: column;
+    align-items: right;
+    margin: 1em;
+    
+   
+}
+
+.uslugiText div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 5em;
+    font-size: 1.8em;
+    font-family: Georgia;
+    text-shadow: 1px 1px 1px #C0C0C0; 
+}
+
+.imageUslugi {
+    display: flex;
+    height: 25em;
+    width: 45em;
+    background: url("images/httppps.jpg") 50%/cover no-repeat;
+    margin: 1em;
+}
+
+/*Портфолио*/
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    font-family: arial;
+    margin: 5px;
+    
+}
+
+.portfolio div {
+    display: flex;
+    border: 1px solid #008080;
+    margin: 10px;
+}
+.portfolio div:hover {
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.portfolio img {
+    display: flex;
+    height: auto;
+    width: 95%;
+    padding: 5px;
+  
+    
+}
+
+
+/*Форма отправки сообщения*/
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    
+    
+}
+
+input {
+display: flex;
+ justify-content: center;
+ align-items: center;
+  margin: 10px;
+  border: 1px solid #0000FF;
+  padding: 1em;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+  width: 70%;
+  
+
+}
+
+ 
+textarea {
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px;
+ width: 70%;
+  border: 1px solid #0000FF;
+  padding: 1em;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+
+} 
+
+
+/*ПОДВАЛ*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    border: 1px solid #0000FF;
+    margin: 1%;
+    background: url("images/coding.jpg") 50%/cover no-repeat;
+   
+    
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    padding: 0.5em;
+   
+}
+
+.contacts a {
+    color: #FFFFFF;
+    font-weight: bold;
+   text-shadow: 1px 1px 6px #000000; 
+    font-size: 1em;
+    font-family: Georgia;
+    padding: 0.5em;
+    
+   
+}
+
+.contact a:nth-child(2) {
+    letter-spacing: 1px;
+}
+
+.time {
+     display: flex;
+      flex-direction: column;
+    justify-content: center;
+     align-items: right;
+     padding-right: 5em;
+    color: #FFFFFF;
+    font-weight: bold;
+   text-shadow: 1px 1px 6px #000000; 
+      font-family: Georgia;
+}
+
+
+.footerMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Georgia;
+    
+}
+
+.footerMenu div {
+    padding: 0.5em;
+  
+   color: #FFFFFF;
+    font-weight: bold;
+   text-shadow: 1px 1px 6px #000000; 
+    
+}
+
+.footerMenu a {
+  
+  color: #FFFFFF;
+    font-weight: bold;
+   text-shadow: 1px 1px 6px #000000; 
+   text-decoration: none;
+    
+}
+
+/*адаптивная сетка*/
+
+@media all and (max-width: 1200px) {
+    .menuContainer {
+  
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    
+   
+}
+
+.menu {
+    flex-direction: row;
+     justify-content: center;
+   width: 100%;
+   margin: 1%;
+   height: auto;
+  
+   
+    
+    
+}
+
+.menu div {
+    width: 18%;
+    margin: 0.2em;
+     font-size: 1em;
+}
+
+.zag {
+   
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    width: 90%;
+    height: auto;
+    border: 1px solid #F5F5DC;
+   
+    
+}
+
+.imageAboutMe {
+    display: none;
+}
+
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+}
+
+/* под смартфоны*/
+
+@media all and (max-width: 1100px) {
+    
+    html {
+        width: 100vw;
+    }
+    
+    body {
+        width: 100vw;
+    }
+    
+    .header {
+        display: none;
+    }
+    
+    
+    .menu {
+     display: none;
+}
+
+    
+.wrapper{
+    display: block;
+    margin: 15px auto;
+	width: 600px;
+	background: rgba(0, 191, 255, 0.8);
+	position: relative;
+	color: white;
+	text-align: center;
+	height: 150px;
+	font-family: 'Georgia';
+	font-size: 500%;
+	
+}
+
+#check-menu{
+	display: none;
+}
+
+label{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	z-index: 2;
+	line-height: 40px;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.burger-line{
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	width: 35px;
+	height: 2px;
+	background-color: #fff;
+	transition: .5s all;
+	margin-top: 10%;
+}
+
+.second, .third{
+	top: 18px;
+}
+
+.fourth{
+	top: 28px;
+}
+
+.main-menu{
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	transform: translateY(175%) scaleY(2.8);
+	max-height: 0;
+	font-size: 0;
+	overflow: hidden;
+	transition: .5s all;
+}
+
+ .main-menu a{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	border-top: 1px solid rgba(255, 255, 255,.3);
+	background: rgba(0, 0, 255, 0.8);
+	letter-spacing: 4px;
+}
+
+.main-menu a:hover{
+	background-color: rgba(210, 105, 30, .9);
+}
+
+#check-menu:checked ~ .main-menu{
+max-height: 500px;
+font-size: 16px;
+}
+
+#check-menu:checked ~ .first{
+	display: none;
+
+}
+
+#check-menu:checked ~ .second{
+	transform: rotate(45deg);
+
+}
+
+#check-menu:checked ~ .third{
+	transform: rotate(-45deg);
+
+}
+
+#check-menu:checked ~ .fourth{
+	display: none;
+ 
+}
+
+
+.zag {
+   
+    margin-bottom: 5%;
+    
+}
+
+
+.aboutMe {
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+
+.imageAboutMe {
+    display: none;
+}
+
+.textAboutMe {
+    display: flex;
+    flex-direction: column;
+     justify-content: center; 
+     align-items: center;
+      align-content: center;
+    height: auto;
+     width: 100vw;
+    font-size: 1em;
+    margin-top: 2px;
+    
+    
+    
+}
+
+.textAboutMe div {
+    font-family: Georgia;
+    border: none;
+      text-align: left;
+      text-indent: 10px;
+      margin-top: 15px;
+     margin-right: 2vw;
+      width: 100vw;
+       padding: 2vw;
+    box-sizing: border-box;
+    
+     
+      
+}
+
+.textAboutMe div:nth-child(1) {
+    border-left: 2px solid #000080;
+    border-left-style: dashed;
+    border-bottom: 2px solid #000080;
+    border-bottom-style: dashed;
+    
+}
+
+.textAboutMe div:nth-child(2) {
+    border-right: 2px solid #000080;
+    border-right-style: dashed;
+    border-bottom: 2px solid #000080;
+    border-bottom-style: dashed;
+}
+
+.textAboutMe div:nth-child(3) {
+    border-left: 2px solid #000080;
+    border-left-style: dashed;
+    border-bottom: 2px solid #000080;
+    border-bottom-style: dashed;
+}
+
+.uslugi {
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  
+}
+
+.imageUslugi {
+    display: none;
+}
+
+.uslugiText {
+    display: flex;
+    width: 92vw;
+   
+}
+
+.uslugiText div {
+   font-size: 250%;
+   width: 92vw:
+   margin: 0 auto;
+   
+      
+}
+
+form {
+    width: 90vw;
+}
+
+input {
+   width: 90vw; 
+   font-size: 2em;
+}
+
+textarea {
+    width: 90vw;
+    font-size: 2em;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-content: center;
+    align-items: center;
+}
+
+.contacts {
+
+   margin-bottom: 1%;
+    width: 60%;
+}
+
+.contacts a {
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+.footerMenu {
+    margin: 0 auto;
+    margin-bottom: 2%;
+     width: 60%;
+}
+
+.footerMenu div {
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+.time {
+   margin: 0 auto;
+   align-items: center;
+   padding-right: 0;
+   font-size: 2em;
+}
+
+}
